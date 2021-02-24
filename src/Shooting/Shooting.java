@@ -53,7 +53,7 @@ public class Shooting {
                     Font font = new Font("SansSerif", Font.PLAIN, 50);
                     gra.setFont(font);
                     FontMetrics metrics = gra.getFontMetrics(font);
-                    gra.drawString("슈팅 게임", 250 - (metrics.stringWidth("슈팅 게임") / 2), 100);
+                    gra.drawString("Shooting Game", 250 - (metrics.stringWidth("Shooting Game") / 2), 100);
                     font = new Font("SansSerif", Font.PLAIN, 20);
                     gra.setFont(font);
                     metrics = gra.getFontMetrics(font);
